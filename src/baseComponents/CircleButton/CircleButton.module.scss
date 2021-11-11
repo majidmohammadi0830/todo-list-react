@@ -1,0 +1,17 @@
+@import '../../assets/styles/shared/utility.scss';
+.CircleButton{
+    @include circle-border-radius();
+    @include low-transition();
+    background: transparent;
+    border: none;
+    opacity: 0.5;
+    padding: 1px $m-padding;
+    &:hover {
+        background: $grey-300;
+        opacity: 1;
+    }
+    &:hover {
+        background: $grey-400;
+        opacity: 1;
+    }
+}

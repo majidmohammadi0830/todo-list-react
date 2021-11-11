@@ -1,0 +1,11 @@
+@import "../../assets/styles/shared/utility.scss";
+
+.Content{
+    background-color: $grey-50;
+    height: 100%;
+    padding: $l-padding;
+    @include display-flex(row);
+    @include flex-align-items(flex-start);
+    @include flex-justify-content(center);
+
+}

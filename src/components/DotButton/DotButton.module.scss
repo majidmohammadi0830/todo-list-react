@@ -1,0 +1,13 @@
+@import '../../assets/styles/shared/utility.scss';
+.DotButton{
+    @include display-flex(row);
+    @include  flex-align-items(center);
+    @include  flex-justify-content(center);
+    height: 17px;
+    width: 19px;
+    cursor: pointer;
+    &::after{
+        content:"•";
+        font-size: $r-15-fontsize;
+    }
+}

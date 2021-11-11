@@ -1,0 +1,21 @@
+@import "../../assets/styles/shared/utility.scss";
+.Breadcrumb {
+    padding-left: $l-padding;
+}
+
+.LinkItem {
+    @include low-transition();
+    color: $grey-700;
+    opacity: 0.5;
+    text-decoration: none;
+    &:active {
+        color: $grey-700;
+    }
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.CurrentLinkItem {
+    opacity: 1;
+}

@@ -1,0 +1,10 @@
+@import "../../assets/styles/shared/utility.scss";
+
+.Content {
+    background-color: $grey-300;
+    height: calc(100% - (2 * #{$l-padding}));
+    padding: $l-padding;
+    @include display-flex(row);
+    @include flex-align-items(flex-start);
+    @include flex-justify-content(flex-start);
+}

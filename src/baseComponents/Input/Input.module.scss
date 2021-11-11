@@ -1,0 +1,12 @@
+@import '../../assets/styles/shared/utility.scss';
+
+.Input {
+    background: transparent;
+    border: none;
+    font-size: $r-125-fontsize;
+    height: 20px;
+    width: 100%;
+    &:focus {
+        outline: none;
+    }
+}

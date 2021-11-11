@@ -1,0 +1,9 @@
+@import "../../assets/styles/shared/utility.scss";
+.Content {
+    @include display-flex();
+    background-color: $grey-50;
+    height: 45px;
+    padding: $l-padding;
+
+}
+

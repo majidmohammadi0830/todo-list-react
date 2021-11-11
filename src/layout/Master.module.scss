@@ -1,0 +1,24 @@
+@import "../assets/styles/shared/utility.scss";
+
+.Content {
+    height: 100% !important;
+    background-color: red;
+    @include display-flex(row);
+    .LeftContent {
+        @include light-box-shadow($blueGrey-200);
+        height: 100%;
+        flex-grow: 0.2;
+        z-index: 1;
+    }
+    .RightContent {
+        height: 100%;
+        @include display-flex(column);
+        flex-grow: 0.8;
+        .NavBar {
+            height: 20vh;
+        }
+        .MainContent {
+            height: 90vh;
+        }
+    }
+}
