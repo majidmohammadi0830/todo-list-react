@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Here is the executable link of sample: https://codesandbox.io/s/kuj5x
+## Demo
+[![Edit todo-list](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/todo-list-kuj5x?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Available Scripts
 
